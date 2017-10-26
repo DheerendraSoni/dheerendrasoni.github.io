@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        REST2EJB
+tagline:      A Complete REST Client with built-in EJB client support
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Dheerendra Soni
+  url:        https://github.com/DheerendraSoni
 
 # Gems
 gems:
