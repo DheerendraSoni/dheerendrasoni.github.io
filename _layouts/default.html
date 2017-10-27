@@ -2,14 +2,86 @@
 <html lang="en-us">
   
   {% include head.html %}
-
+  
   <body>
     {% include page-header.html %}
 
     <section class="main-content">
-      
-      {{ content }}
 
+		<main role="main">
+         <article>
+            <header class="container header--big">
+               <div class="row">
+                  <div class="col-12">
+                     <h1>Download REST2EJB</h1>
+                     <p class="text-lg">Ease up your mind from writing code from scratch</p>
+                  </div>
+				  <div class="row center">
+                        <div class="col-12">
+                           <hr>
+                        </div>
+                     </div>
+               </div>
+            </header>
+            <section class="content container" id="middle">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="row center">
+                        <div class="col-4 platform-download">
+                           <img src="apple.png">
+                           <p>
+                              <a href="https://builds.insomnia.rest/downloads/mac/latest" data-ga="Download:Mac" class="button">
+                              <i class="fa fa-download"></i>
+                              OS X 10+
+                              </a>
+                           </p>
+                         
+                        </div>
+                        <div class="col-4 platform-download">
+                           <img src="windows.png">
+                           <p>
+                              <a href="https://builds.insomnia.rest/downloads/windows/latest" data-ga="Download:Windows" class="button">
+                              <i class="fa fa-download"></i>
+                              Windows 7+ (64-bit)
+                              </a>
+                           </p>
+                           <p class="subtle small" style="max-width:12rem;margin:auto;">
+                              (Download 32-bit version)
+                           </p>
+                        </div>						
+                        <div class="col-4 platform-download">
+                           <img src="linux.png">
+                           <p>
+                              <a href="https://builds.insomnia.rest/downloads/ubuntu/latest" data-ga="Download:Linux:Ubuntu" class="button">
+                              <i class="fa fa-download"></i>
+                               Linux
+                              </a>
+                           </p>                          
+                        </div>
+                     </div>
+                     <div class="row center">
+                        <div class="col-12">
+                           <hr>
+                        </div>
+                     </div>
+                     <div class="row center">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                           <h4>Calling EJB services made easy without writing single line of code</h4>						   
+                        </div>
+                     </div>  
+					 <img src="tool.png">
+					 <div class="row center">
+                        <div class="col-12">
+                           <hr>
+                        </div>
+                     </div>					 
+                  </div>
+               </div>
+            </section>
+         </article>
+      </main>
+			
       {% include page-footer.html %}
 
     </section>
